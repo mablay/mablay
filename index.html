@@ -6,10 +6,31 @@
   <title>Marc's GitHub Profile</title>
 </head>
 <body>
+<script lang="javascript">
+  document.body.addEventListener("click", fullscreen)
+  function fullscreen () {
+    console.log('fullscreen')
+    var docelem = document.body;
+  if (docelem.requestFullscreen) {
+        docelem.requestFullscreen();
+    }
+    else if (docelem.mozRequestFullScreen) {
+        docelem.mozRequestFullScreen();
+    }
+    else if (docelem.webkitRequestFullscreen) {
+        docelem.webkitRequestFullscreen();
+    }
+    else if (docelem.msRequestFullscreen) {
+        docelem.msRequestFullscreen();
+    }
+  }
+</script>
 <style>
 html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
   background-color: black;
 }  
 </style>
