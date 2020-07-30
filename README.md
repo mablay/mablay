@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+If you can read this, then github pages prefers `README.md` over `index.html`
+
 <!--
 **mablay/mablay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
